@@ -1,12 +1,26 @@
-# Skool Class Downloader v1.0.0
+# Skool Class Downloader v1.1.0
 
-## What's New
+## What's New in v1.1.0
+
+### Video Playback Improvements 🎬
+- **Enhanced Codec Support**: Videos now prefer H.264 format for maximum compatibility
+- **Hardware Acceleration**: Enabled for smoother video playback
+- **Better Error Handling**: Clear error messages when videos fail to play
+- **Loom Video Support**: Improved compatibility with Loom video downloads
+- **Codec Detection**: Automatic detection of supported video codecs
+
+### Bug Fixes
+- Fixed video playback issues for users experiencing codec compatibility problems
+- Improved video download format selection for better playback reliability
+- Enhanced error messages to help users understand video issues
+
+## Previous Features (v1.0.0)
 
 ### Freemium Model
 - **Free Tier**: Download 1 course for free
 - **Premium**: Unlimited course downloads with a valid license key
 
-### Features
+### Core Features
 - Download courses from Skool.com communities you're a member of
 - Supports video downloads (Mux, Vimeo, Loom, YouTube)
 - Downloads images and attachments
@@ -20,15 +34,15 @@
 Choose the right version for your operating system:
 
 ### macOS
-- **Apple Silicon (M1/M2/M3)**: `Skool Class Downloader-1.0.0-arm64.dmg`
-- **Intel Mac**: `Skool Class Downloader-1.0.0-x64.dmg`
+- **Apple Silicon (M1/M2/M3)**: `Skool Class Downloader-1.1.0-arm64.dmg`
+- **Intel Mac**: `Skool Class Downloader-1.1.0-x64.dmg`
 
 ### Windows
-- **Installer**: `Skool Class Downloader-1.0.0-x64.exe`
+- **Installer**: `Skool Class Downloader-1.1.0-x64.exe`
 
 ### Linux
-- **AppImage**: `Skool Class Downloader-1.0.0-x86_64.AppImage`
-- **Debian/Ubuntu**: `Skool Class Downloader-1.0.0-amd64.deb`
+- **AppImage**: `Skool Class Downloader-1.1.0-x86_64.AppImage`
+- **Debian/Ubuntu**: `Skool Class Downloader-1.1.0-amd64.deb`
 
 ## Installation
 
