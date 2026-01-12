@@ -1,3 +1,5 @@
+<img src="https://drive.google.com/thumbnail?id=1IVe3KMrx5sJYvves4N-9J7rgbhlasOSR&sz=w1920" alt="Skool Class Downloader" style="max-width: 100%;" />
+
 # Skool Class Downloader
 
 <p align="center">
