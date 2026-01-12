@@ -37,17 +37,86 @@ A desktop application to download courses from Skool.com communities you're a me
 | **Free** | $0 | 1 course download |
 | **Premium** | License Key | Unlimited downloads |
 
+## Installation
+
+### 🍎 macOS
+
+1. Download the DMG file for your Mac (Apple Silicon or Intel)
+2. Open the DMG file
+3. Drag "Skool Class Downloader" to Applications
+4. **First launch**: Right-click the app and select "Open" (required for unsigned apps)
+5. The app will automatically install required dependencies (yt-dlp, ffmpeg) via Homebrew
+
+> **Note**: If you don't have Homebrew installed, the app will install it automatically. If auto-install fails, you can install manually:
+> ```bash
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+> brew install yt-dlp ffmpeg
+> ```
+
+### 🪟 Windows
+
+1. Download the EXE installer
+2. Run the installer and follow the wizard
+3. **Install dependencies manually** (the app will guide you):
+
+   **Option A - Using winget (recommended):**
+   ```powershell
+   winget install yt-dlp
+   winget install ffmpeg
+   ```
+
+   **Option B - Manual download:**
+   - Download [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest) and place it in a folder in your PATH
+   - Download [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) and add the `bin` folder to your PATH
+
+4. Restart the app after installing dependencies
+
+### 🐧 Linux
+
+**AppImage:**
+1. Download the AppImage file
+2. Make it executable and run:
+   ```bash
+   chmod +x Skool*.AppImage
+   ./Skool*.AppImage
+   ```
+
+**Debian/Ubuntu (.deb):**
+```bash
+sudo dpkg -i Skool*.deb
+```
+
+**Install dependencies:**
+The app will attempt to auto-install using your package manager. If it fails:
+
+```bash
+# Ubuntu/Debian
+sudo apt update
+sudo apt install yt-dlp ffmpeg
+
+# Fedora
+sudo dnf install yt-dlp ffmpeg
+
+# Arch Linux
+sudo pacman -S yt-dlp ffmpeg
+```
+
 ## Requirements
 
-The app requires these tools for video downloads (installation guided on first launch):
+The app requires these tools for video downloads:
 
-- **yt-dlp** - Video downloader
-- **ffmpeg** - Video processing
+| Dependency | Purpose | Auto-Install |
+|------------|---------|--------------|
+| **yt-dlp** | Downloads videos from various platforms | ✅ Mac/Linux, ❌ Windows |
+| **ffmpeg** | Video processing and conversion | ✅ Mac/Linux, ❌ Windows |
+
+> On **macOS** and **Linux**, dependencies are installed automatically on first launch.
+> On **Windows**, you need to install them manually (see installation instructions above).
 
 ## Getting Started
 
 1. Download and install the app for your platform
-2. Launch the app
+2. Launch the app (dependencies will auto-install on Mac/Linux)
 3. Upload your Skool cookies (use the EditThisCookie browser extension)
 4. Select a community and course
 5. Click Download!
