@@ -1,0 +1,15 @@
+# Build artifacts - these are uploaded to GitHub Releases, not committed
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.blockmap
+*.yml
+
+# Build directories
+mac/
+mac-arm64/
+win-unpacked/
+linux-unpacked/
+.icon-ico/
+.icon-set/
