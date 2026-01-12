@@ -3,22 +3,22 @@
 # Skool Class Downloader
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.1.0-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg" alt="Platform">
   <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="License">
 </p>
 
 A desktop application to download courses from Skool.com communities you're a member of.
 
-## ⬇️ Download Latest Version (v1.0.0)
+## ⬇️ Download Latest Version (v1.1.0)
 
 | Operating System | Architecture | Download |
 |------------------|--------------|----------|
-| 🍎 **macOS** | Apple Silicon (M1/M2/M3) | [Download DMG](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.0.0/Skool.Class.Downloader-1.0.0-arm64.dmg) |
-| 🍎 **macOS** | Intel | [Download DMG](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.0.0/Skool.Class.Downloader-1.0.0-x64.dmg) |
-| 🪟 **Windows** | x64 | [Download EXE](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.0.0/Skool.Class.Downloader-1.0.0-x64.exe) |
-| 🐧 **Linux** | AppImage | [Download AppImage](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.0.0/Skool.Class.Downloader-1.0.0-x86_64.AppImage) |
-| 🐧 **Linux** | Debian/Ubuntu | [Download DEB](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.0.0/Skool.Class.Downloader-1.0.0-amd64.deb) |
+| 🍎 **macOS** | Apple Silicon (M1/M2/M3) | [Download DMG](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.1.0/Skool.Class.Downloader-1.1.0-arm64.dmg) |
+| 🍎 **macOS** | Intel | [Download DMG](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.1.0/Skool.Class.Downloader-1.1.0-x64.dmg) |
+| 🪟 **Windows** | x64 | [Download EXE](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.1.0/Skool.Class.Downloader-1.1.0-x64.exe) |
+| 🐧 **Linux** | AppImage | [Download AppImage](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.1.0/Skool.Class.Downloader-1.1.0-x86_64.AppImage) |
+| 🐧 **Linux** | Debian/Ubuntu | [Download DEB](https://github.com/toolmaster-tech/skool-class-downloader/releases/download/v1.1.0/Skool.Class.Downloader-1.1.0-amd64.deb) |
 
 > 📋 See all releases: [Releases Page](https://github.com/toolmaster-tech/skool-class-downloader/releases)
 
